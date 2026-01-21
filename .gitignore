@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Hardhat build artifacts (can be regenerated)
+artifacts/
+cache/
+
+# Environment variables (NEVER commit real keys!)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+coverage.json
+
+# TypeChain (if using TypeScript)
+typechain/
+typechain-types/
