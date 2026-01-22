@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+  --font-main: 'Outfit', sans-serif;
+  
+  --color-bg-start: #0f172a;
+  --color-bg-end: #1e293b;
+  --color-primary: #8b5cf6; /* Violet */
+  --color-secondary: #ec4899; /* Pink */
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-surface: rgba(255, 255, 255, 0.05);
+  --color-surface-hover: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: radial-gradient(circle at top left, var(--color-bg-start), var(--color-bg-end));
+  background-attachment: fixed;
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+input, textarea {
+  font-family: inherit;
+}

@@ -1,0 +1,3 @@
+export const CONTRACT_ADDRESS = "0x37401611CF65FC6B5dd852D15d6c95404e9dae94"; // Sepolia
+export const SEPOLIA_CHAIN_ID = "11155111";
+export const LOCAL_CHAIN_ID = "31337";
