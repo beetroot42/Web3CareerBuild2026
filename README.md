@@ -9,7 +9,6 @@
 4.  **前端 DApp 开发**: 基于 React + Vite 构建用户界面 "EtherBoard"，实现了全栈交互。
     - **钱包连接**: 支持 Metamask 连接，并自动识别网络（Localhost/Sepolia）。
     - **实时交互**: 实现了写留言（发送交易）和读留言（监听链上事件）的功能。
-    - **UI 设计**: 采用了 Glassmorphism（玻璃拟态）风格，提供现代化的用户体验。
 
 **相关链接**:
 - **Sepolia 合约地址**: [`0x37401611CF65FC6B5dd852D15d6c95404e9dae94`](https://sepolia.etherscan.io/address/0x37401611CF65FC6B5dd852D15d6c95404e9dae94)
